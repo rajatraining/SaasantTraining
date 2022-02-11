@@ -1,0 +1,16 @@
+package demo;
+
+public class SampleClass {
+	
+	public static void main(String[] args) {
+		
+		//Array 
+		int x[] = new int[5]; 
+		int[] y = new int[5]; 
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package product.billing;
+
+public class BillingMain {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Enter the items for billing ");
+		
+		ProductInfo prodInfo = new ProductInfo(); 
+		
+		prodInfo.setProductName("Milk");
+		prodInfo.setQuantity(2);
+		prodInfo.setPricePerUnit(22);
+		
+ProductInfo prodInfo1 = new ProductInfo(); 
+		
+		prodInfo1.setProductName("Curd");
+		prodInfo1.setQuantity(2);
+		prodInfo1.setPricePerUnit(32);
+		
+		
+		System.out.println("Its done ");
+		
+
+	}
+
+}

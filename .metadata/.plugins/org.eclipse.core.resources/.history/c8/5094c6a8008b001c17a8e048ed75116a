@@ -1,0 +1,56 @@
+package product.billing;
+
+import java.util.Scanner;
+
+public class BillingMain {
+
+	public static void main(String[] args) {
+		
+		ProductInfo[] prodList = new ProductInfo[5]; 
+		String decision ="N"; 
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the items for billing ");
+		
+		int i = 0; 
+		
+		do {
+			
+			ProductInfo prodInfo = new ProductInfo(); 
+			String prodName = sc.next(); 
+			prodInfo.setProductName(prodName);
+			
+			int quant = sc.nextInt(); 
+			prodInfo.setQuantity(quant);
+			
+			float ppu = sc.nextFloat(); 
+			prodInfo.setPricePerUnit(ppu);
+			
+			prodList[i] = prodInfo;
+			
+			i++; 
+			
+			
+		}while("Y".equalsIgnoreCase(decision)); 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		ProductInfo prodInfo1 = new ProductInfo(); 
+		
+		prodInfo1.setProductName("Curd");
+		prodInfo1.setQuantity(2);
+		prodInfo1.setPricePerUnit(32);
+		
+		
+		System.out.println("Its done ");
+		
+
+	}
+
+}

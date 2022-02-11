@@ -1,0 +1,18 @@
+package sample;
+
+import demo.ClassA;
+
+public class SampleClass extends ClassA{
+
+	void sampleMethod()
+	{
+		//varA
+		
+		System.out.println(varA);
+		
+		ClassA classA = new ClassA(); 
+		classA.
+	}
+	
+	
+}

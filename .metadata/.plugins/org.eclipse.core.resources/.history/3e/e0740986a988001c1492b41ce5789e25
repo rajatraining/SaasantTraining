@@ -1,0 +1,42 @@
+package demo.hello; // Package section 
+
+// Import section
+
+public class HelloWorld { // Class
+	// Global Block
+	
+	int a =10 ; // Member Variable 
+	
+	void printMe() // Member Method 
+	{
+		int x= 10 ; //Local variables 
+		System.out.println("Wlecome ");
+		
+		
+		
+		HelloWorld hw = new HelloWorld(); 
+		hw.printHi();
+		
+		
+		printHi();
+		
+	}
+	
+	void printHi()
+	{
+		System.out.println("Hi Boss");
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("Welcome from Main methods");
+		
+		HelloWorld hw = new HelloWorld();
+		hw.printMe();
+		
+		
+	}
+	
+	
+	
+}

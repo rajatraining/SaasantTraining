@@ -1,0 +1,21 @@
+package demo;
+
+public class SampleClass {
+	
+	public static void main(String[] args) {
+		
+		//Array 
+		int x[] = new int[5]; 
+		int[] y = {23,3,45,45,34};
+		
+		float f[] = new float[4];
+		
+		Integer[] val = new Integer[5];
+		
+		
+		
+		
+		
+	}
+
+}

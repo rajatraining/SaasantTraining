@@ -1,0 +1,55 @@
+package demo.hello; // Package section 
+
+import java.util.Scanner;
+
+// Import section
+
+public class HelloWorld { // Class
+	
+	
+	public static void main(String[] args) {
+		
+		HelloWorld hw = new HelloWorld(); 
+		hw.sum();
+		
+		
+	}
+	
+	void sum()
+	{
+		Scanner sc = new Scanner(System.in); 
+		
+		System.out.println("Enter the X value ");
+		int x = sc.nextInt();
+		
+		System.out.println("Enter the Y value ");
+		int y = sc.nextInt(); 
+		
+		int z = x+y; 
+		
+		System.out.println("The sum of x,y is "+z);
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

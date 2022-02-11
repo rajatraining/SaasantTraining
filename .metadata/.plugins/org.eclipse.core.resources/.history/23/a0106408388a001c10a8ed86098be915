@@ -1,0 +1,19 @@
+package sample;
+
+import demo.ClassA;
+
+public class SampleClass{
+
+	void sampleMethod()
+	{
+		
+		
+		
+		ClassA classA = new ClassA(); 
+		
+		
+		System.out.println(classA.varA);
+	}
+	
+	
+}

@@ -1,0 +1,14 @@
+package demo;
+
+public class ClassA {
+
+	String varA= "Am from ClassA" ; // Global Variable 
+	
+	void printMeFromA() // Default Access Modifiers 
+	{
+		
+		
+		System.out.println("Am printing from A");
+	}
+	
+}

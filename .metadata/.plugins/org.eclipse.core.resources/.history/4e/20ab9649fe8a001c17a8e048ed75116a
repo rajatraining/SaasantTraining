@@ -1,0 +1,5 @@
+package product.billing;
+
+public class ProductInfo {
+
+}

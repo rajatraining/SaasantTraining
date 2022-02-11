@@ -1,0 +1,12 @@
+package product.billing;
+
+public class ProductInfo {
+
+	private String productName; 
+	private int quantity; 
+	private float pricePerUnit; 
+	private float cost; 
+	
+	
+	
+}

@@ -1,0 +1,22 @@
+package demo;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Datatypes 
+		// Product 
+		
+		
+		int x =10; 
+		int y=10; 
+		
+		
+		// 
+		String prodName = "Dairy Milk";
+		
+		String prod1 = "Dairy Milk";
+		
+
+	}
+
+}

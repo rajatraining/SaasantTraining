@@ -1,0 +1,42 @@
+package product.billing;
+
+public class BillingMain {
+
+	public static void main(String[] args) {
+		
+		ProductInfo[] prodList = new ProductInfo[5]; 
+		String decision ="N"; 
+		
+		System.out.println("Enter the items for billing ");
+		
+		do {
+			
+			
+			
+		}while("Y".equalsIgnoreCase(decision)); 
+		
+		
+		
+		
+		
+		
+		
+		ProductInfo prodInfo = new ProductInfo(); 
+		
+		prodInfo.setProductName("Milk");
+		prodInfo.setQuantity(2);
+		prodInfo.setPricePerUnit(22);
+		
+		ProductInfo prodInfo1 = new ProductInfo(); 
+		
+		prodInfo1.setProductName("Curd");
+		prodInfo1.setQuantity(2);
+		prodInfo1.setPricePerUnit(32);
+		
+		
+		System.out.println("Its done ");
+		
+
+	}
+
+}

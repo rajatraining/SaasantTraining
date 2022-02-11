@@ -1,0 +1,14 @@
+package sample;
+
+import demo.ClassA;
+
+public class SampleClass {
+
+	void sampleMethod()
+	{
+		ClassA classA = new ClassA(); 
+		classA.
+	}
+	
+	
+}

@@ -1,0 +1,20 @@
+package demo.hello;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		
+		Sample sam = new Sample(); 
+		sam.sum((byte) 45, 443);
+		
+
+	}
+	
+	
+	void sum(byte x, int y)
+	{
+		
+	}
+	
+
+}

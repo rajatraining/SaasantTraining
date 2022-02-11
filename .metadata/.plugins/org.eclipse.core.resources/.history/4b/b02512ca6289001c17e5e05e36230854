@@ -1,0 +1,72 @@
+package demo.hello; // Package section 
+
+import java.util.Scanner;
+
+// Import section
+
+public class HelloWorld { // Class
+	// Global Block
+	
+	int a =10 ; // Member Variable 
+	
+	void printMe() // Member Method 
+	{
+		int x= 10 ; //Local variables 
+		System.out.println("Wlecome ");
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the x value");
+		
+		x = scan.nextInt();
+		
+	
+	}
+	
+	void printHi()
+	{
+		System.out.println("Hi Boss");
+	}
+
+	public static void main(String[] args) { // Explicit
+		
+		System.out.println("Welcome from Main methods");
+		
+		
+		
+		Scanner scan  = new Scanner(System.in);
+		
+		int x = scan.nextInt();
+		
+		System.out.printf("The value got from user %d got frm console",x);
+		
+		
+		
+		HelloWorld hw = new HelloWorld();
+		hw.printMe();
+		
+		
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

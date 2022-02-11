@@ -1,0 +1,13 @@
+package demo;
+
+public class ClassB extends ClassA {
+
+	String varB= "Am from ClassB" ; // Global Variable 
+	
+	void printMeFromB() // Default Access Modifiers 
+	{
+		
+		
+		System.out.println("Am printing from B");
+	}
+}

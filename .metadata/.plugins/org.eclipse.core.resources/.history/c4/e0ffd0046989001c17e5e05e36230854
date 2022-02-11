@@ -1,0 +1,54 @@
+package demo.hello; // Package section 
+
+import java.util.Scanner;
+
+// Import section
+
+public class HelloWorld { // Class
+	
+	
+	public static void main(String[] args) {
+		
+		
+		HelloWorld hw = new HelloWorld();
+		hw.sum();
+		hw.sum();
+		hw.sum();
+		hw.sum();
+		hw.sum();
+		
+		
+		
+		
+	}
+	
+	void sum(int x,int y) // Arguments . attributes
+	{
+		
+		
+		int z=x+y;
+		System.out.println(z);
+		
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

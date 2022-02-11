@@ -1,0 +1,52 @@
+package demo.hello; // Package section 
+
+import java.util.Scanner;
+
+// Import section
+
+public class HelloWorld { // Class
+	
+	
+	public static void main(String[] args) {
+		
+		int x =12; 
+		int y= 13; 
+		
+		int z=x+y;
+		System.out.println(z);
+		
+		
+		int x1 =12; 
+		int y1= 13; 
+		
+		int z1=x1+y1;
+		System.out.println(z1);
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

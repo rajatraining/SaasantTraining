@@ -1,0 +1,15 @@
+package sample;
+
+import demo.ClassA;
+
+public class SampleClass{
+
+	public static void main(String[] args) {
+		
+		char[][] arr = {{'a','b','c'},{'d','e','f'},{'g','h','i'}};
+		
+		
+		
+	}
+	
+}

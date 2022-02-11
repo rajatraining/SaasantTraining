@@ -1,0 +1,18 @@
+package product.billing;
+
+public class BillingMain {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Enter the items for billing ");
+		
+		do {
+			
+		}
+		
+		
+
+	}
+
+}
