@@ -9,6 +9,8 @@ public class Student {
 	private Integer mark3; 
 	private Integer total ;
 	private Integer average;
+	
+	
 	public Long getStuId() {
 		return stuId;
 	}
